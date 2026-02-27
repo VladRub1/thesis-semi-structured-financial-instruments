@@ -1,0 +1,20 @@
+[project]
+name = "masters-thesis-dev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+    "nbconvert",
+    "numpy>=2.4.2",
+    "pandas>=3.0.0",
+    "pyarrow>=23.0.0",
+    "pypdf>=6.6.2",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "selenium>=4.40.0",
+    "tqdm>=4.67.2",
+]

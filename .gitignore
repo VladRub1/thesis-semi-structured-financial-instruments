@@ -1,0 +1,36 @@
+# Python
+# Generic
+*.pyc
+*~
+__pycache__
+.env
+.venv
+# IDE-specific files and folders
+.idea/  # For PyCharm
+.vscode/ # For VS Code
+
+# Unit test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+
+# Ruff (linter)
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/chromedriver-mac-arm64/
+data/raw/
+data/processed/**/*.parquet
+data/processed/**/*.csv
+
+# Logs
+data/logs/
